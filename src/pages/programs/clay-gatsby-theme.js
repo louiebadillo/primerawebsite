@@ -10,8 +10,6 @@ import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 import BackgroundSection from "@/components/BackgroundSection";
 
-import proj1 from "/public/images/image1.jpg";
-
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
   const motionValue = useMotionValue(0);
@@ -72,7 +70,7 @@ export default function About() {
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
                 Unlocking the Power of Gatsby v5+ & NetlifyCMS with Clay Theme.
               </h2>
-              <h3 className="mb-4 text-lg font-bold  text-lightGreen dark:text-primaryDark">
+              <h3 className="mb-4 text-lg font-bold  text-accent dark:text-accentDark">
                 Content | Web Design | UX/UI | Development
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
@@ -142,8 +140,10 @@ export default function About() {
               />
               <Image
                 className="h-auto w-full rounded-2xl"
-                src={proj1}
+                src="/images/hero-renovation.jpg"
                 alt="Clay Gatsby Theme"
+                width={800}
+                height={600}
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"

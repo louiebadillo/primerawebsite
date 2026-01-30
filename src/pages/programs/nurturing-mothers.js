@@ -11,16 +11,16 @@ import SEO from "@/components/SEO";
 const NurturingMothers = () => {
   const carouselImages = [
     {
-      src: "/images/programs/program20.jpg",
-      alt: "Nurturing Mothers Program - Parenting Support"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-      src: "/images/programs/program21.jpg",
-      alt: "Nurturing Mothers Program - Cultural Connection"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-      src: "/images/programs/program22.jpg",
-      alt: "Nurturing Mothers Program - Life Skills"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
   ];
 

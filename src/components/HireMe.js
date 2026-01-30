@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import CText from "../../public/images/CircularText2.png";
 
 export const HireMe = () => {
   return (
@@ -12,7 +11,7 @@ export const HireMe = () => {
       <div className="HireMe w-full h-full flex items-center justify-center md:w-24">
         <Image
           priority={false}
-          src={CText}
+          src="/images/hero-renovation.jpg"
           alt="HireMe image"
           height={160}
           width={160}

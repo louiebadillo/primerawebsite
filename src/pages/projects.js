@@ -7,7 +7,8 @@ import Link from "next/link";
 import { useRef } from "react";
 
 
-import proj1 from "../../public/images/programs/program6.jpeg";
+// Using placeholder image
+const proj1 = "/images/hero-renovation.jpg";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";

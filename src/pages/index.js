@@ -4,10 +4,39 @@ import Head from "next/head";
 import TransitionEffect from "@/components/TransitionEffect";
 import HeroFinal from "@/components/HeroFinal";
 import ProgramsOverview from "@/components/ProgramsOverview";
+import ImageCarousel from "@/components/ImageCarousel";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import SEO from "@/components/SEO";
 
 export default function Home() {
+  // Renovation carousel images
+  const renovationImages = [
+    {
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation project 1"
+    },
+    {
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation project 2"
+    },
+    {
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation project 3"
+    },
+    {
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation project 4"
+    },
+    {
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation project 5"
+    },
+    {
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation project 6"
+    }
+  ];
+
   return (
     <>
       <SEO
@@ -25,6 +54,11 @@ export default function Home() {
       
       {/* Programs Overview Section */}
       <ProgramsOverview />
+      
+      {/* Image Carousel Section - Full Width */}
+      <section className="w-full bg-light dark:bg-dark py-8 md:py-12">
+        <ImageCarousel images={renovationImages} />
+      </section>
       
       {/* Testimonial Slider Section */}
       <TestimonialSlider />

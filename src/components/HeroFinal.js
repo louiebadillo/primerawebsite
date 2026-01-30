@@ -8,8 +8,8 @@ export default function HeroFinal() {
       {/* Optimized Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/banff.jpg"
-          alt="Pluming Eagle Lodge Hero Background"
+          src="/images/hero-renovation.jpg"
+          alt="Renovation Hero Background"
           fill
           priority
           className="object-cover"

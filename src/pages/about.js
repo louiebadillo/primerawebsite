@@ -20,28 +20,28 @@ export default function About() {
 
   const carouselImages = [
     {
-      src: "/images/programs/programkinship.jpeg",
-      alt: "Pluming Eagle Lodge Facility",
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project",
       caption: "Community and engagement"
     },
     {
-      src: "/images/programs/program14.jpeg", 
-      alt: "Youth Activities",
+      src: "/images/hero-renovation.jpg", 
+      alt: "Renovation Project",
       caption: "Engaging activities that promote growth and development"
     },
     {
-      src: "/images/programs/program10.jpeg",
-      alt: "Community Support",
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project",
       caption: "Safe and comfortable environment for children and youth"
     },
     {
-      src: "/images/programs/program6.jpeg",
-      alt: "Community Support",
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project",
       caption: "Our programs are designed to support the needs of the community"
     },
     {
-      src: "/images/programs/program11.jpeg",
-      alt: "Community Support",
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project",
       caption: "We provide a safe and supportive environment for children and youth"
     }
   ];

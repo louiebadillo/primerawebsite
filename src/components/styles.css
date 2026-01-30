@@ -1,0 +1,120 @@
+/* Swiper Custom Styles - Mobile-First Design */
+
+.mySwiper {
+  width: 100%;
+  padding: 20px 0 60px 0;
+}
+
+/* Slide styling */
+.mySwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+/* Navigation Arrows - Hidden on mobile, visible on tablet+ */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: none; /* Hidden on mobile */
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+}
+
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Show navigation on tablet and up */
+@media (min-width: 640px) {
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    display: flex;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .mySwiper .swiper-button-next::after,
+  .mySwiper .swiper-button-prev::after {
+    font-size: 20px;
+  }
+}
+
+/* Pagination Dots - Mobile-friendly */
+.mySwiper .swiper-pagination {
+  bottom: 20px !important;
+  position: absolute;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  transition: all 0.3s ease;
+  margin: 0 4px;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 1);
+  width: 24px;
+  border-radius: 10px;
+}
+
+/* Larger bullets on mobile for easier tapping */
+@media (max-width: 639px) {
+  .mySwiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    width: 28px;
+  }
+}
+
+/* Dark mode support */
+.dark .mySwiper .swiper-button-next,
+.dark .mySwiper .swiper-button-prev {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark .mySwiper .swiper-button-next:hover,
+.dark .mySwiper .swiper-button-prev:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark .mySwiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.dark .mySwiper .swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Smooth transitions for mobile performance */
+.mySwiper .swiper-slide {
+  will-change: transform;
+}
+
+/* Touch-friendly spacing */
+@media (max-width: 639px) {
+  .mySwiper {
+    padding: 16px 0 50px 0;
+  }
+}
+

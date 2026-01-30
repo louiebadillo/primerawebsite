@@ -53,7 +53,7 @@ const ImpactSection = () => {
     <section 
       className="w-full py-16 relative"
       style={{
-        backgroundImage: 'url(/images/sky.jpg)',
+        backgroundImage: 'url(/images/hero-renovation.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

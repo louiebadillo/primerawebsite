@@ -64,7 +64,7 @@ export default function About() {
       <TransitionEffect />
       
       <main className={`flex w-full flex-col items-center justify-center dark:text-light`}>
-        <BackgroundSection attachment="fixed" image="/images/sky.jpg">
+        <BackgroundSection attachment="fixed" image="/images/hero-renovation.jpg">
         <Layout className="pt-16 sm:pt-32 mb-32">
           <AnimatedText
             text="Get In Touch"
@@ -74,7 +74,7 @@ export default function About() {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 relative flex w-full flex-col items-center justify-center rounded-2xl rounded-br-2xl border border-solid border-dark bg-light p-6 shadow-2xl xs:p-4">
             <div className="absolute top-0 -right-5 -z-10 h-[103%] w-[101.5%] rounded-[2rem] rounded-br-3xl bg-dark md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
             <div className="col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-1 md:col-span-8">
-              <h2 className="my-4 text-2xl font-bold capitalize text-primaryDark text-center w-full">
+              <h2 className="my-4 text-2xl font-bold capitalize text-primary dark:text-primaryDark text-center w-full">
                 We'd love to hear from you
               </h2>
 

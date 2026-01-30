@@ -2,19 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Primary background color from pelbackground.jpg top section */
-/* Replace #YOUR_COLOR_CODE with the actual hex color you extracted */
+/* New color palette matching logo */
 :root {
-  --primary-bg-color: #dfe5e3;
+  --primary-bg-color: #fffcf2; /* Background color */
+  --complimentary-color: #ccc5b9; /* Second complimentary color */
+  --twilight-indigo: #3D4056; /* Twilight Indigo */
+  --accent-yellow: #E1AC00; /* Accent yellow */
+  --button-color: #eb5e28; /* Button color */
+  --text-color: #403d39; /* Text color */
 }
 
 body {
   background-color: var(--primary-bg-color) !important;
+  color: var(--text-color);
 }
 
-/* Remove any dark mode overrides */
+/* Light mode */
 html, body, main {
   background-color: var(--primary-bg-color) !important;
+  color: var(--text-color);
+}
+
+/* Dark mode overrides */
+.dark {
+  --primary-bg-color: #2a2a2a;
+  --text-color: #e0e0e0;
+}
+
+.dark html, .dark body, .dark main {
+  background-color: var(--primary-bg-color) !important;
+  color: var(--text-color);
 }
 
 

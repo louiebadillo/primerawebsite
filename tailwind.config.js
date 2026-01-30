@@ -13,15 +13,22 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Rethink Sans", ...fontFamily.sans],
+        sans: ["Cabin", ...fontFamily.sans],
       },
       colors: {
-        dark: "#1b1b1b",
-        light: "#f5f5f5",
-        primary: "#2545d0",
-        primaryDark: "#4377ee",
-        lightGreen: "#4377ee",
-        slideGreen: "#2439a9",
+        // New color palette matching logo
+        dark: "#2a2a2a", // Dark mode background
+        light: "#fffcf2", // Background color
+        primary: "#3D4056", // Twilight Indigo
+        primaryDark: "#2d3042", // Darker indigo for dark mode
+        accent: "#E1AC00", // Accent yellow
+        accentDark: "#c99a00", // Darker yellow for dark mode
+        button: "#eb5e28", // Button color
+        buttonDark: "#d14a1f", // Darker button for dark mode
+        text: "#403d39", // Text color
+        textDark: "#e0e0e0", // Light text for dark mode
+        complimentary: "#ccc5b9", // Second complimentary color
+        complimentaryDark: "#9a9488", // Darker complimentary for dark mode
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

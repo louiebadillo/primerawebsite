@@ -14,20 +14,20 @@ const FramerImage = motion(Image);
 const JourneyToBelongingHome = () => {
   const carouselImages = [
     {
-      src: "/images/programs/program8.jpeg",
-      alt: "Journey to Belonging Home - Cultural Activities"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-      src: "/images/programs/program11.jpeg",
-      alt: "Journey to Belonging Home - Learning Environment"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-      src: "/images/programs/program2.jpeg",
-      alt: "Journey to Belonging Home - Community Support"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-        src: "/images/programs/program15.jpeg",
-        alt: "Journey to Belonging Home - Community Support"
+        src: "/images/hero-renovation.jpg",
+        alt: "Renovation Project"
     },
   ];
 

@@ -12,16 +12,16 @@ import SEO from "@/components/SEO";
 const FosterKinshipCare = () => {
   const carouselImages = [
     {
-      src: "/images/programs/program2hero.jpeg",
-      alt: "Foster/Kinship Care Program - Family Connection"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-      src: "/images/programs/programkinship.jpeg",
-      alt: "Foster/Kinship Care Program - Cultural Support"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     },
     {
-      src: "/images/programs/program20.jpg",
-      alt: "Foster/Kinship Care Program - Community Integration"
+      src: "/images/hero-renovation.jpg",
+      alt: "Renovation Project"
     }
   ];
 
