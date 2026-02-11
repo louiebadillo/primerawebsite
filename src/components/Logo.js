@@ -12,8 +12,8 @@ const Logo = () => {
         className="flex items-center justify-center"
       >
         <img
-          src="/pellogo.png"
-          alt="Pluming Eagle Lodge Logo"
+          src="/images/primeralogo.png"
+          alt="Primera Solutions Logo"
           className="object-contain"
         />
       </MotionLink>

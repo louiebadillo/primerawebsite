@@ -3,7 +3,7 @@ import BackgroundSection from "@/components/BackgroundSection";
 import Head from "next/head";
 import TransitionEffect from "@/components/TransitionEffect";
 import HeroFinal from "@/components/HeroFinal";
-import ProgramsOverview from "@/components/ProgramsOverview";
+import HomepageOverview from "@/components/HomepageOverview";
 import ImageCarousel from "@/components/ImageCarousel";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import SEO from "@/components/SEO";
@@ -52,8 +52,8 @@ export default function Home() {
       {/* Hero Section */}
       <HeroFinal />
       
-      {/* Programs Overview Section */}
-      <ProgramsOverview />
+      {/* Homepage Overview Section */}
+      <HomepageOverview />
       
       {/* Image Carousel Section - Full Width */}
       <section className="w-full bg-light dark:bg-dark py-8 md:py-12">

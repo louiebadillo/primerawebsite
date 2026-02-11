@@ -4,7 +4,7 @@ const SEO = ({
   title, 
   description, 
   keywords, 
-  ogImage = "/pellogo.png",
+  ogImage = "/images/primeralogo.png",
   ogUrl,
   canonicalUrl 
 }) => {

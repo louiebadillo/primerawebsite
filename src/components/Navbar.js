@@ -15,7 +15,7 @@ const CustomLink = ({ href, title, className = "" }) => {
       {title}
       <span
         className={`
-              inline-block h-[1px]  bg-dark absolute left-0 -bottom-0.5 
+              inline-block h-[1px]  bg-white absolute left-0 -bottom-0.5 
               group-hover:w-full transition-[width] ease duration-300
               ${
                 router.asPath === href ? "w-full" : " w-0"
@@ -59,6 +59,8 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const isHomePage = router.pathname === "/";
 
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -74,17 +76,19 @@ const Navbar = () => {
       style={{ backgroundColor: 'rgba(223, 229, 227, 0.3)' }}
     >
       {/* Logo */}
-      <div className="flex items-center">
-        <Link href="/" className="flex items-center">
-          <Image
-            src="/pellogofinal.png"
-            alt="Pluming Eagle Lodge"
-            width={150}
-            height={150}
-            className="object-contain"
-          />
-        </Link>
-      </div>
+      {!isHomePage && (
+        <div className="flex items-center -ml-4">
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/primeralogo.png"
+              alt="Primera Solutions"
+              width={100}
+              height={100}
+              className="object-contain"
+            />
+          </Link>
+        </div>
+      )}
 
       <button
         type="button"

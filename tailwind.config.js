@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Cabin", ...fontFamily.sans],
+        script: ["Marck Script", "cursive"],
       },
       colors: {
         // New color palette matching logo
